@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SherlockGougou:BigImageViewPager:v4_6.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2415b9c63ac328fd82d88ed6f481f7e6/jetified-BigImageViewPager-v4_6.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2415b9c63ac328fd82d88ed6f481f7e6/jetified-BigImageViewPager-v4_6.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.SherlockGougou/BigImageViewPager/v4_6.0.0/afd2e5d244a9119cc9f502175049ceafb5070ff9/BigImageViewPager-v4_6.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

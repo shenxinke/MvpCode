@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:2:11-44
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:1-43:12
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:15:22-66
+uses-feature#android.hardware.camera
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:17:5-60
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:18:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:21:22-65
+application
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:22:5-42:19
+meta-data#design_width_in_dp
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:23:9-25:34
+	android:value
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:25:13-32
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:24:13-46
+meta-data#design_height_in_dp
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:26:9-28:34
+	android:value
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:28:13-32
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:27:13-47
+activity#com.zuo.demo.lib_common.activity.MineCaptureActivity
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:30:9-65
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:30:19-63
+provider#androidx.core.content.FileProvider
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:37:13-47
+	android:authorities
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:35:13-64
+	android:exported
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:34:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:38:13-40:60
+	android:resource
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:40:17-58
+	android:name
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:39:17-67
+uses-sdk
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		ADDED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+		INJECTED from D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml

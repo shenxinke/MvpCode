@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color333333">#333333</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="color_ffc10c">#ffc10c</color>
+    <color name="red_light">#c15003</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <string name="app_name">lib_common</string>
+    <string name="error_scan">未解析出二维码</string>
+    <string name="exit_app">再按一次退出</string>
+    <string name="fail_scan">解析二维码失败</string>
+    <style name="ZuoAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

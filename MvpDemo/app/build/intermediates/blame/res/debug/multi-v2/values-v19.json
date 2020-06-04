@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\code\\MvpDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\xinke\\.gradle\\caches\\transforms-2\\files-2.1\\2415b9c63ac328fd82d88ed6f481f7e6\\jetified-BigImageViewPager-v4_6.0.0\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "9",
+                        "endOffsets": "530"
+                    }
+                }
+            ]
+        }
+    ]
+}

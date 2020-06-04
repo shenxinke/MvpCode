@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+id tv_click_on
+layout activity_lib_home
+string app_name

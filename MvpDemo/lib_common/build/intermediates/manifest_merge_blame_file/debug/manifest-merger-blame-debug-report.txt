@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zuo.demo.lib_common"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:4:5-66
+11-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:4:22-64
+12
+13    <!-- //它可以监听用户的连接状态并在用户重新连接到网络时重启之前失败的请求 -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:7:5-78
+14-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:7:22-76
+15
+16    <!-- //用于硬盘缓存和读取 -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:10:5-79
+17-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:11:5-80
+18-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:11:22-78
+19
+20    <!-- //扫一扫 -->
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:14:5-65
+21-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:14:22-62
+22    <uses-permission android:name="android.permission.FLASHLIGHT" />
+22-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:15:5-69
+22-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:15:22-66
+23
+24    <uses-feature android:name="android.hardware.camera" />
+24-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:17:5-60
+24-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:17:19-57
+25    <uses-feature android:name="android.hardware.camera.autofocus" />
+25-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:18:5-70
+25-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:18:19-67
+26
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:20:5-66
+27-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:20:22-63
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:21:5-68
+28-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:21:22-65
+29
+30    <application>
+30-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:22:5-42:19
+31        <meta-data
+31-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:23:9-25:34
+32            android:name="design_width_in_dp"
+32-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:24:13-46
+33            android:value="360" />
+33-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:25:13-32
+34        <meta-data
+34-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:26:9-28:34
+35            android:name="design_height_in_dp"
+35-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:27:13-47
+36            android:value="640" />
+36-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:28:13-32
+37
+38        <activity android:name="com.zuo.demo.lib_common.activity.MineCaptureActivity" />
+38-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:30:9-65
+38-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:30:19-63
+39
+40        <provider
+40-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:33:9-41:20
+41            android:name="androidx.core.content.FileProvider"
+41-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:34:13-62
+42            android:authorities="${applicationId}.fileprovider"
+42-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:35:13-64
+43            android:exported="false"
+43-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:36:13-37
+44            android:grantUriPermissions="true" >
+44-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:37:13-47
+45            <meta-data
+45-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:38:13-40:60
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:39:17-67
+47                android:resource="@xml/file_paths_public" />
+47-->D:\code\MvpDemo\lib_common\src\main\AndroidManifest.xml:40:17-58
+48        </provider>
+49    </application>
+50
+51</manifest>

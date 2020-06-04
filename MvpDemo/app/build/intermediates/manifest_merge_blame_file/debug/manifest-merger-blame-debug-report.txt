@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zuo.mvp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:4:5-81
+11-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:5:5-65
+12-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:6:5-75
+13-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:6:22-72
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:7:5-81
+14-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:8:5-79
+15-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- //它可以监听用户的连接状态并在用户重新连接到网络时重启之前失败的请求 -->
+16-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+16-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- //用于硬盘缓存和读取 -->
+17-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
+17-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-80
+18-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-77
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-69
+19-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:22-66
+20
+21    <uses-feature android:name="android.hardware.camera" />
+21-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-60
+21-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:19-57
+22    <uses-feature android:name="android.hardware.camera.autofocus" />
+22-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-70
+22-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-67
+23
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-66
+24-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-63
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-68
+25-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-65
+26
+27    <application
+27-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:10:5-28:19
+28        android:name="com.zuo.demo.lib_common.model.ZuoApplication"
+28-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:11:9-68
+29        android:allowBackup="true"
+29-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:12:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.0.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\73b92598657cef04075f6747c03f10d9\core-1.0.1\AndroidManifest.xml:22:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:13:9-43
+33        android:label="@string/app_name"
+33-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:14:9-41
+34        android:networkSecurityConfig="@xml/network_config"
+34-->[com.github.SherlockGougou:BigImageViewPager:v4_6.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\2415b9c63ac328fd82d88ed6f481f7e6\jetified-BigImageViewPager-v4_6.0.0\AndroidManifest.xml:13:18-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/ZuoAppTheme" >
+38-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:17:9-43
+39        <activity android:name="com.zuo.demo.zuodemo.start.LoadingScreenActivity" >
+39-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:18:9-24:20
+39-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:18:19-62
+40            <intent-filter>
+40-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:19:13-23:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:20:17-68
+41-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:20:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:22:17-76
+43-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:22:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.zuo.demo.zuodemo.second.SecondActivity" />
+46-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:25:9-78
+46-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:25:19-76
+47        <activity android:name="com.zuo.demo.zuodemo.third.ThirdActivity" />
+47-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:26:9-56
+47-->D:\code\MvpDemo\app\src\main\AndroidManifest.xml:26:19-54
+48        <activity android:name="com.zuo.demo.homelib.LibHomeActivity" />
+48-->[:homelib] D:\code\MvpDemo\homelib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-73
+48-->[:homelib] D:\code\MvpDemo\homelib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-70
+49        <activity android:name="com.sxk.demo.loginlib.activity.LoginActivity" />
+49-->[:loginlib] D:\code\MvpDemo\loginlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-81
+49-->[:loginlib] D:\code\MvpDemo\loginlib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-78
+50
+51        <meta-data
+51-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33:35
+52            android:name="design_width_in_dp"
+52-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-46
+53            android:value="360" />
+53-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-32
+54        <meta-data
+54-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-36:35
+55            android:name="design_height_in_dp"
+55-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-47
+56            android:value="640" />
+56-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-32
+57
+58        <activity android:name="com.zuo.demo.lib_common.activity.MineCaptureActivity" />
+58-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-89
+58-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:19-86
+59
+60        <provider
+60-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-48:20
+61            android:name="androidx.core.content.FileProvider"
+61-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-62
+62            android:authorities="com.zuo.mvp.fileprovider"
+62-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-64
+63            android:exported="false"
+63-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-37
+64            android:grantUriPermissions="true" >
+64-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-47
+65            <meta-data
+65-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-47:61
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:17-67
+67                android:resource="@xml/file_paths_public" />
+67-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:17-58
+68        </provider>
+69
+70        <activity
+70-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:12:9-17:63
+71            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+71-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:13:13-74
+72            android:configChanges="orientation|keyboardHidden"
+72-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:14:13-63
+73            android:screenOrientation="portrait"
+73-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:15:13-49
+74            android:theme="@style/Theme.AppCompat.NoActionBar"
+74-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:16:13-63
+75            android:windowSoftInputMode="stateAlwaysHidden" />
+75-->[cn.yipianfengye.android:zxing-library:2.2] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\f7889e77c577a1ce307dd75f77448fc0\jetified-zxing-library-2.2\AndroidManifest.xml:17:13-60
+76        <activity android:name="com.zhihu.matisse.ui.MatisseActivity" />
+76-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:28:9-73
+76-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:28:19-70
+77        <activity android:name="com.zhihu.matisse.internal.ui.AlbumPreviewActivity" />
+77-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:29:9-87
+77-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:29:19-84
+78        <activity android:name="com.zhihu.matisse.internal.ui.SelectedPreviewActivity" />
+78-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:30:9-90
+78-->[com.zhihu.android:matisse:0.5.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\cbb441390b29684b1e61e15b56949674\jetified-matisse-0.5.1\AndroidManifest.xml:30:19-87
+79        <activity
+79-->[pub.devrel:easypermissions:3.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\3000d9b2c3cddd20eb34ac4ae822b1a5\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+80            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+80-->[pub.devrel:easypermissions:3.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\3000d9b2c3cddd20eb34ac4ae822b1a5\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+81            android:exported="false"
+81-->[pub.devrel:easypermissions:3.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\3000d9b2c3cddd20eb34ac4ae822b1a5\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+82            android:label=""
+82-->[pub.devrel:easypermissions:3.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\3000d9b2c3cddd20eb34ac4ae822b1a5\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+83            android:theme="@style/EasyPermissions.Transparent" />
+83-->[pub.devrel:easypermissions:3.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\3000d9b2c3cddd20eb34ac4ae822b1a5\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+84
+85        <meta-data
+85-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\dd9f38b3c8afdeea1a12557c79db2346\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:11:9-13:43
+86            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+86-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\dd9f38b3c8afdeea1a12557c79db2346\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:12:13-84
+87            android:value="GlideModule" />
+87-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\dd9f38b3c8afdeea1a12557c79db2346\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:13:13-40
+88
+89        <activity
+89-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:10:9-15:75
+90            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+90-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:11:13-71
+91            android:configChanges="orientation|keyboardHidden|screenSize"
+91-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:12:13-74
+92            android:multiprocess="true"
+92-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:13:13-40
+93            android:theme="@style/ActivityTranslucent"
+93-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:14:13-55
+94            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+94-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:15:13-72
+95
+96        <provider
+96-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:17:9-26:20
+97            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+97-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:18:13-70
+98            android:authorities="com.zuo.mvp.utilcode.provider"
+98-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:19:13-69
+99            android:exported="false"
+99-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:20:13-37
+100            android:grantUriPermissions="true"
+100-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:21:13-47
+101            android:multiprocess="true" >
+101-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:22:13-40
+102            <meta-data
+102-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-47:61
+103                android:name="android.support.FILE_PROVIDER_PATHS"
+103-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:17-67
+104                android:resource="@xml/util_code_provider_paths" />
+104-->[:lib_common] D:\code\MvpDemo\lib_common\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:17-58
+105        </provider>
+106
+107        <service
+107-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:28:9-34:19
+108            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+108-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:29:13-81
+109            android:exported="false" >
+109-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:30:13-37
+110            <intent-filter>
+110-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:31:13-33:29
+111                <action android:name="com.zuo.mvp.messenger" />
+111-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:32:17-69
+111-->[com.blankj:utilcode:1.28.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\a4730370af356d4e43e67c522f5219ff\jetified-utilcode-1.28.0\AndroidManifest.xml:32:25-66
+112            </intent-filter>
+113        </service>
+114
+115        <activity
+115-->[com.github.SherlockGougou:BigImageViewPager:v4_6.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\2415b9c63ac328fd82d88ed6f481f7e6\jetified-BigImageViewPager-v4_6.0.0\AndroidManifest.xml:14:9-16:57
+116            android:name="cc.shinichi.library.view.ImagePreviewActivity"
+116-->[com.github.SherlockGougou:BigImageViewPager:v4_6.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\2415b9c63ac328fd82d88ed6f481f7e6\jetified-BigImageViewPager-v4_6.0.0\AndroidManifest.xml:15:13-73
+117            android:theme="@style/Theme.ImagePreview" />
+117-->[com.github.SherlockGougou:BigImageViewPager:v4_6.0.0] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\2415b9c63ac328fd82d88ed6f481f7e6\jetified-BigImageViewPager-v4_6.0.0\AndroidManifest.xml:16:13-54
+118
+119        <provider
+119-->[me.jessyan:autosize:1.2.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\9641ae07ad09e4c42381be0b40598ef8\jetified-autosize-1.2.1\AndroidManifest.xml:12:9-16:43
+120            android:name="me.jessyan.autosize.InitProvider"
+120-->[me.jessyan:autosize:1.2.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\9641ae07ad09e4c42381be0b40598ef8\jetified-autosize-1.2.1\AndroidManifest.xml:13:13-60
+121            android:authorities="com.zuo.mvp.autosize-init-provider"
+121-->[me.jessyan:autosize:1.2.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\9641ae07ad09e4c42381be0b40598ef8\jetified-autosize-1.2.1\AndroidManifest.xml:14:13-74
+122            android:exported="false"
+122-->[me.jessyan:autosize:1.2.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\9641ae07ad09e4c42381be0b40598ef8\jetified-autosize-1.2.1\AndroidManifest.xml:15:13-37
+123            android:multiprocess="true" />
+123-->[me.jessyan:autosize:1.2.1] C:\Users\xinke\.gradle\caches\transforms-2\files-2.1\9641ae07ad09e4c42381be0b40598ef8\jetified-autosize-1.2.1\AndroidManifest.xml:16:13-40
+124    </application>
+125
+126</manifest>

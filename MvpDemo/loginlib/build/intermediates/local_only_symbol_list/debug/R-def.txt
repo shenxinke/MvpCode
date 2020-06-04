@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+drawable textview_round_border
+id code_delete
+id login_forgetpassword
+id login_image
+id login_load
+id login_regster
+id login_remind_checkbox
+id login_remindpasswordtext
+id login_user_code
+id login_user_password
+id password_delete
+layout activity_login_layout
+mipmap login_bg
+mipmap login_blue
+mipmap login_img_delete
+mipmap login_logo
+mipmap login_yellow
+string app_name
+string login_forget_password
+string login_register
+string login_remind_password
+string str_login_name
+string str_login_user_code
+string str_login_user_password

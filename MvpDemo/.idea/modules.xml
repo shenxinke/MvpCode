@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MvpDemo.iml" filepath="$PROJECT_DIR$/MvpDemo.iml" group="MvpDemo" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MvpDemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/homelib/homelib.iml" filepath="$PROJECT_DIR$/homelib/homelib.iml" group="MvpDemo/homelib" />
+      <module fileurl="file://$PROJECT_DIR$/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/lib_common/lib_common.iml" group="MvpDemo/lib_common" />
+      <module fileurl="file://$PROJECT_DIR$/loginlib/loginlib.iml" filepath="$PROJECT_DIR$/loginlib/loginlib.iml" group="MvpDemo/loginlib" />
+    </modules>
+  </component>
+</project>
